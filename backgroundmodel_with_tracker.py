@@ -86,7 +86,7 @@ def main():
             break
         # roi=(454, 169, 546, 348)#pitch 11 dec
         # roi=(633, 489, 324, 217)# batsman cam 11 dec
-        # roi=(519, 273, 391, 186)
+        
         roi=(977, 202, 389, 369)  # slipcam
         # roi=(407, 212, 793, 396)
         roi_frame=frame[int(roi[1]):int(roi[1]+roi[3]), int(roi[0]):int(roi[0]+roi[2])]
